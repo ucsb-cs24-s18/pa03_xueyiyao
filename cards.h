@@ -17,8 +17,9 @@ struct card{
   card* right;
   card* parent;
   
-};
+  };
 
+//hand in form of bst
 class hand{
 
  public:
@@ -28,7 +29,7 @@ class hand{
   void setName(const string& s);
   string getName() const;
 
-  void append(const char face,const char suit);
+  void append(const char face, const char suit);
   void srmatch(hand& h);
   void removeCard(card& c);
   bool ismatch(const hand& h);
@@ -38,8 +39,11 @@ class hand{
  private:
   card* root;
   string name;
+  
 };
 
 bool operator==(card& c1, card& c2);
+bool operator>(card& c1, card& c2);
+bool operator<(card& c1, card& c2);	       
 
 #endif

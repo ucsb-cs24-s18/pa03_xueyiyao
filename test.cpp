@@ -6,8 +6,20 @@
 using namespace std;
 
 //
-void find(){
-  //traverses through tree to find card with value
+void find(card* p, const card& c){
+  /*if(p){
+    if(*p = c){
+      return c;
+    }
+    if(*p < c){
+      return find(p->left, c);
+    }
+    if(*p > c){
+      return find(p->right, c);
+    }
+  }
+  else
+  return NULL;*/
 }
 
 //test append (same as insert)

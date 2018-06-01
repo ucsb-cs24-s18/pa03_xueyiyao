@@ -29,7 +29,7 @@ string hand::getName() const{
 }
 
 //appends cards to tree
-void hand::append(const char face,const char suit){
+void hand::append(const char face, const char suit){
 
 }
 
@@ -58,3 +58,12 @@ bool operator==(card& c1, card& c2){
   return false;
 }
 
+//overloading > operator
+bool operator>(card& c1, card& c2){
+  return false;
+}
+
+//overloading < operator
+bool operator<(card& c1, card& c2){
+  return false;
+}
