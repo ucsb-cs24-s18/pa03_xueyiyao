@@ -25,7 +25,7 @@ void hand::setName(const string& s){
 
 //gets player name
 string hand::getName() const{
-  return;
+  return "";
 }
 
 //appends cards to tree
@@ -50,7 +50,7 @@ bool hand::ismatch(const hand& h){
 
 //overloading << operator
 ostream& operator <<(ostream& os, const hand& h1){
-  return;
+  return os;
 }
 
 //overloading == operator
