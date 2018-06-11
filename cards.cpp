@@ -299,7 +299,7 @@ void hand::removeCard(card* n){
   else{
     card* sw;
     sw = getPredecessorCard(n);
-    int tmpnums = n->suitv, tmpnumf = n->facev;
+    //int tmpnums = n->suitv, tmpnumf = n->facev;
     n->suitv = sw->suitv;
     n->facev = sw->facev;
     removeCard(sw);
