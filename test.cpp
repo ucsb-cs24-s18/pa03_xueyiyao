@@ -5,7 +5,11 @@
 #include <string>
 using namespace std;
 
-//
+
+
+
+
+
 void find(card* p, const card& c){
   /*if(p){
     if(*p = c){
@@ -66,5 +70,16 @@ void predecessor(){
 }
 
 int main(){
+  hand h1, h2;
+  h1.insert('d', '9');
+  h1.insert('s', '1'); //10
+  h1.insert('h', 'j');
+
+  bool all = true;
+  int testnum = getTest();
+  if (testnum){
+    all = false;
+  }
+  
   return 0;
 }
