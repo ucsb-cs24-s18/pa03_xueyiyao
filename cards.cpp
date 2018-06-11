@@ -366,7 +366,7 @@ string cardToString(const int svalue, const int fvalue){
   
 //overloading == operator
 bool operator==(card& c1, card& c2){
-  if(c1.suitv == c2.suitv && c1.suitv == c2.suitv){
+  if(c1.suitv == c2.suitv && c1.facev == c2.facev){
     return true;
   }
   else{
