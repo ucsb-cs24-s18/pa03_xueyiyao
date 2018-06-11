@@ -414,6 +414,7 @@ bool operator<(card& c1, card& c2){
 void printCards(hand& h1, hand& h2){
   cout << "Alice's cards:" << endl;
   h1.print();
+  cout << endl;
   cout << "Bob's cards:" << endl;
   h2.print();
   return;
